@@ -107,6 +107,12 @@ span {
   font-weight: 500;
   transition: 0.5s all ease-in-out;
 }
+.active {
+  color: #fff;
+  background-color: rgb(203, 156, 34);
+  box-shadow: 0 0 20px goldenrod;
+  font-weight: 500;
+}
 
 .bars {
   font-family: "Pacifico" !important;
@@ -140,6 +146,11 @@ nav.navBg .tab-links:hover {
   box-shadow: 0 0 20px #04a871;
   color: #ffffff;
   transition: 0.5s all ease-in-out;
+}
+nav.navBg .active {
+  background: #27ae61;
+  box-shadow: 0 0 20px #04a871;
+  color: #ffffff;
 }
 nav.navBg .bars {
   color: #000;
